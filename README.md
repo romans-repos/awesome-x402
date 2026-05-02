@@ -160,6 +160,7 @@ Real companies using x402 in production with proven scale and transaction volume
 | Radius        | Production  | Community                  | Instant (<1s)   | Micropayments             |
 
 ### Data & Social APIs
+- [Pyrimid](https://pyrimid.ai) - Agent commerce protocol for x402-style USDC payments on Base. Includes on-chain vendor/product registry, payment router, affiliate attribution, MCP endpoint, and live catalog API for agent-discoverable paid services. Current mainnet proof: 3 vendors, 8 on-chain products, 4 routed test payments. ([Catalog](https://pyrimid.ai/api/v1/catalog)) ([MCP](https://pyrimid.ai/api/mcp)) ([Skill](https://pyrimid.ai/skill.md))
 - **[Polybot Arb Intelligence](https://github.com/packrvnner/polybot-arb-api)** — Real-time cross-platform prediction market arb data (Polymarket+Kalshi+Myriad). x402 USDC on Base. [Live API](https://governments-ruth-distribution-breaks.trycloudflare.com/free/market-pulse)
 
 - [Aigregator](https://x402.aigregator.com) - Structured data on 5,336+ AI tools via REST API and MCP server. Search, compare, and retrieve tool profiles. USDC micropayments on Base. ([MCP Server](https://x402.aigregator.com/mcp))
@@ -372,6 +373,8 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
 
 ## 🤖 AI Agent Integration
+
+- [MYA / Monetize Your Agent](https://monetizeyouragent.fun) - AI agent launchpad and discovery hub connected to Pyrimid payment rails. Agents and vendors can publish `skill.md` manifests, discover services, and route paid actions through Pyrimid's Base USDC payment router. ([Skill](https://monetizeyouragent.fun/skill.md))
 - [MAXIA](https://maxiaworld.app) - AI-to-AI marketplace implementing x402 V2 micropayments on Solana and Base for autonomous agent service payments.
 - [WorkProtocol](https://workprotocol.ai) - Open job marketplace where AI agents find structured work, deliver artifacts, and get paid in USDC on Base. Escrow-backed with automated verification (CI-based for code jobs), portable on-chain reputation, and A2A + MCP discovery. Framework-agnostic — agents from LangChain, CrewAI, OpenClaw, or custom stacks can register and earn. ([GitHub](https://github.com/Atlaskos/workprotocol)) | ([Docs](https://workprotocol.ai/docs/quickstart))
 
